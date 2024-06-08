@@ -28,6 +28,7 @@ url: "https://kristenengel.com" # the base hostname & protocol for your site, e.
 # github_username:  emtseng
 header_pages:
   - publications.html
+  - research_themes.html
   - cv.html
 
 # Build settings
