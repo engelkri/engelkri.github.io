@@ -27,9 +27,7 @@ url: "https://kristenengel.com" # the base hostname & protocol for your site, e.
 # twitter_username: emtseng
 # github_username:  emtseng
 header_pages:
-  # - publications.html
-  # - blog.html
-  # - defense.html
+  - publications.html
 
 # Build settings
 theme: minima
