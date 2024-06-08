@@ -19,7 +19,7 @@
   # online: https://dl.acm.org/doi/10.1145/3579492
 - year: 2022
 - title: "Characterizing Reddit Participation of Users Who Engage in the QAnon Conspiracy Theories"
-  authors: "<b>Kristen Engel*</b>, Yiqing Hua*, , Taixiang Zeng, and Mor Naaman"
+  authors: "<b>Kristen Engel*</b>, Yiqing Hua*, Taixiang Zeng, and Mor Naaman"
   venue: ACM CSCW 2022.
   pdf: "EngelHua-2022-CSCW.pdf"
   online: https://dl.acm.org/doi/abs/10.1145/3512900
@@ -39,7 +39,7 @@
 - title: "A Digital Safety Dilemma: Computer-Mediated Computer Security Interventions for Intimate Partner Violence During COVID-19"
   authors: "Emily Tseng, Diana Freed, <b>Kristen Engel</b>, Thomas Ristenpart, and Nicola Dell."
   venue: ACM CHI 2021.
-  desc: "The pandemic has worsened conditions for victims of IPV, many of whom may be forced to shelter in place with their abusers. We analyzed 24 consults with victims and held 5 focus groups with consultants to understand the new challenges brought on by shifting clinical computer security to a remote work context."
+  # desc: "The pandemic has worsened conditions for victims of IPV, many of whom may be forced to shelter in place with their abusers. We analyzed 24 consults with victims and held 5 focus groups with consultants to understand the new challenges brought on by shifting clinical computer security to a remote work context."
   pdf: "Tseng-2021-CHI_Digital-Safety-Dilemma_cam-ready.pdf"
   online: https://dl.acm.org/doi/abs/10.1145/3411764.3445589
-  video: https://www.youtube.com/watch?v=VDNApFCXV4U&ab_channel=ACMSIGCHI
+  # video: https://www.youtube.com/watch?v=VDNApFCXV4U&ab_channel=ACMSIGCHI
