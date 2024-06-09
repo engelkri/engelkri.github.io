@@ -36,6 +36,7 @@
 #   pdf: "Liang-2021-CSCW_Subtle-CSCW-Traits.pdf"
 #   desc: "Our workshop convened social computing researchers with ties to the Asian diaspora for a day of community-building around making space for our shared identities in HCI and CSCW."
 #   online: https://dl.acm.org/doi/abs/10.1145/3462204.3481730
+- year: 2021
 - title: "A Digital Safety Dilemma: Computer-Mediated Computer Security Interventions for Intimate Partner Violence During COVID-19"
   authors: "Emily Tseng, Diana Freed, <b>Kristen Engel</b>, Thomas Ristenpart, and Nicola Dell."
   venue: ACM CHI 2021.
