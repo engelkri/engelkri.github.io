@@ -1,26 +1,30 @@
 - year: 2025
 - title: "Social Dynamics and Mobilization Potential of Online Election Narratives."
   authors: "<b>Kristen Engel</b>, Tanu Mitra, and Emma Spiro."
-  venue: Proceedings of the International AAAI Conference on Web and Social Media. Vol. 19. (ICWSM ’25).
+  venue: Proceedings of the International AAAI Conference on Web and Social Media
+  (ICWSM ’25)
   # pdf: "Tseng-2024-CSCW-Data-Stewardship-Digital-Safety_author-version.pdf"
   # online: https://doi.acm.org/?doi=3637316
   label: P1
 - year: 2023
 - title: "Learning from the Ex-Believers: Individuals' Journeys In and Out of Conspiracy Theories Online"
   authors: "<b>Kristen Engel</b>, Shruti Phadke, and Tanu Mitra."
-  venue: Proceedings of the ACM on Human-Computer Interaction. Computer Supported Cooperative Work (ACM CSCW ’23)
+  venue: Proceedings of the ACM on Human-Computer Interaction, Computer Supported Cooperative Work 
+  (ACM CSCW ’23)
   # desc: "Building on our FAccT 2023 CRAFT session, this workshop explores how HCI and CSCW as research fields can better align with the values necessary for community-collaborative work."
   online: https://dl.acm.org/doi/abs/10.1145/3610076
   pdf: "Engel-2023-CSCW.pdf"
 - title: "Midterm Candidate Participation in False and Misleading Election Discourse on Twitter"
   authors: "Kayla Duskin*, <b>Kristen Engel*</b>, and Emma Spiro."
-  venue: International Conference on Computational Social Science (IC2S2 ’23)
+  venue: International Conference on Computational Social Science 
+  (IC2S2 ’23)
   # pdf: "Ming-2023-CSCW_Invisible-Work-HHAs.pdf"
   # online: https://dl.acm.org/doi/10.1145/3579492
 - year: 2022
 - title: "Characterizing Reddit Participation of Users Who Engage in the QAnon Conspiracy Theories"
   authors: "<b>Kristen Engel*</b>, Yiqing Hua*, Taixiang Zeng, and Mor Naaman"
-  venue: Proceedings of the ACM on Human-Computer Interaction. Computer Supported Cooperative Work (ACM CSCW ’22)
+  venue: Proceedings of the ACM on Human-Computer Interaction, Computer Supported Cooperative Work 
+  (ACM CSCW ’22)
   pdf: "EngelHua-2022-CSCW.pdf"
   online: https://dl.acm.org/doi/abs/10.1145/3512900
 # - title: Care Infrastructures for Digital Security and Privacy in Intimate Partner Violence
