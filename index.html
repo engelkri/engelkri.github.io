@@ -1,0 +1,35 @@
+---
+layout: default
+title: Kristen Engel | PhD candidate at the University of Washington
+---
+
+<section class="main-content-container">
+  <div class="main-text">
+    <p>Hello!</p>
+    <p>
+      I am a Ph.D. candidate and social computing researcher at the University of Washington, based in the <a href="https://www.cip.uw.edu"> Center for an Informed Public</a>. 
+      <br><br>My research examines user engagement with audience and AI-driven interventions, prosocial dynamics, and antisocial content online. 
+      <br><br>I draw on human-computer interaction and data science techniques informed by social science theories to empirically measure and experimentally mitigate harmful beliefs and behaviors. My work aims to contribute to online trust and safety by aiding user disengagement from and resilience against conspiracy theories, extremism, and rumors.
+      <br><br>I have a MS from Cornell University and a BA from the George Washington University. Between degrees, I worked in analyst, data scientist, and project management roles.
+    <!-- </p> -->
+  </div>
+
+  <div class="main-image">
+    <img id="profile-photo" src="./assets/imgs/ke_bw.jpeg" alt="Kristen in profile and black and white, smiling" />
+  </div>
+</section>
+
+  <section id="news">
+    <b>news</b>
+    <br><br>
+    {% if site.data.news %}
+        <div class="news-grid">
+          {% for item in site.data.news %}
+            <div class="news-item">
+              <div class="news-date">{{ item.date }}</div>
+              <div class="news-txt">{{ item.txt }}</div>
+            </div>
+          {% endfor %}
+        </div>
+    {% endif %}
+  </section>
