@@ -127,6 +127,12 @@ a:hover {
     flex-direction: column;
     gap: 8px;
   }
+  .main-text {
+  order: 1;
+  }
+  .main-image {
+  order: 2;
+  }
   .main-content-container {
     flex-direction: column;
     align-items: center;
