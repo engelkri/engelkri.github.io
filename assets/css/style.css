@@ -124,7 +124,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .footer-content {
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
   }
   .main-content-container {
