@@ -127,6 +127,29 @@ a:hover {
     flex-direction: column;
     gap: 8px;
   }
+  .main-content-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main-text, .main-image {
+    flex: none;
+    width: 100%;
+  }
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-text {
+    margin-top: 1rem;
+  }
+  body {
+    font-size: 16px; /* adjust as needed */
+  }
+  .site-title a {
+    font-size: 20px;
+  }
 }
 
 .about-section {
@@ -163,18 +186,6 @@ a:hover {
 .news-txt {
   flex: 1;
   /* color: #3C3C3C; */
-}
-
-@media screen and (max-width: 600px) {
-  .about-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-text {
-    margin-top: 1rem;
-  }
 }
 
 .main-content-container {
