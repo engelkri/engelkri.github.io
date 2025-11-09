@@ -1,6 +1,3 @@
-User-agent: *
-Disallow: /
-
 User-agent: GPTBot
 Disallow: /
 
@@ -11,9 +8,6 @@ User-agent: ClaudeBot
 Disallow: /
 
 User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Googlebot
 Disallow: /
 
 User-agent: Bingbot
