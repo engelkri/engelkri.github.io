@@ -29,7 +29,7 @@ linkedin_username: kristenengel
 scholar_username: UHy5CWUAAAAJ
 bluesky_username: kristenengel.bsky.social
 header_pages:
-  # - research.md
+  - research.html
   - cv.md
 
 # Build settings
