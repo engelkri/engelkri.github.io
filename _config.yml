@@ -22,7 +22,7 @@ title: Kristen Engel
 description: >- # this means to ignore newlines until "baseurl:"
   PhD candidate at the University of Washington
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kristenengel.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 linkedin_username: kristenengel
