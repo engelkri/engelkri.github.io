@@ -9,21 +9,85 @@
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/imgs/icon.png' | relative_url }}">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK5ECSXWXC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VK5ECSXWXC');
+  </script>
+
+  <!-- Links page-specific style -->
+  {% if page.permalink == '/links/' %}
+  <style>
+    body.page-links .page-content {
+      max-width: 480px;
+      margin: 40px auto;
+      text-align: center;
+    }
+    body.page-links .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    body.page-links h1,
+    body.page-links p.bio {
+      text-align: center;
+    }
+
+    /* Linktree-style top social icons */
+    body.page-links .social-links a {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      border: 2px solid #ddd;
+      color: #646464;
+      transition: 0.2s;
+      margin: 0 6px;
+    }
+    body.page-links .social-links a:hover {
+      border-color: #888;
+      transform: translateY(-2px);
+      color: #f5f5f5;
+    }
+
+    /* Square links/buttons */
+    body.page-links .link {
+      display: block;
+      padding: 14px 18px;
+      margin: 12px 0;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      border: 2px solid #ddd;
+      transition: 0.2s;
+    }
+    body.page-links .link:hover {
+      border-color: #888;
+      transform: translateY(-2px);
+    }
+
+    /* Hide footer social links on links page */
+    body.page-links .site-footer .social-links {
+      display: none;
+    }
+  </style>
+  {% endif %}
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK5ECSXWXC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VK5ECSXWXC');
-</script>
-  
-<body>
+<body {% if page.permalink == '/links/' %}class="page-links"{% endif %}>
 <header class="site-header">
-  <div class="header-wrapper"> <!-- updated class name here -->
+  <div class="header-wrapper">
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">Kristen Engel</a>
     </h1>
@@ -34,33 +98,32 @@
   </div>
 </header>
 
-  <main class="page-content">
+<main class="page-content">
   {{ content }}
 </main>
 
 <footer class="site-footer">
-  <div class="wrapper footer-content">
-    <span>&copy; 2025 Kristen Engel</span> &nbsp;|&nbsp;
-    <span><a href="mailto:engelkri@uw.edu">engelkri [at] uw [dot] edu</a></span> &nbsp;|&nbsp;
-    <div class="social-links">
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener">
-        <i class="fa-brands fa-linkedin"></i>
-      </a>
-      <!-- <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank" rel="noopener">
-        <i class="fa-brands fa-github"></i>
-      </a> -->
-      <a href="https://scholar.google.com/citations?user={{ site.scholar_username }}" title="Google Scholar" target="_blank" rel="noopener">
-        <i class="fa-solid fa-graduation-cap"></i>
-        <!-- <i class="fa-brands fa-google-scholar"></i> -->
-      </a>
-      <!-- <a href="https://bsky.app/profile/{{ site.bluesky_username }}" title="Bluesky" target="_blank" rel="noopener">
-        <i class="fa-brands fa-bluesky"></i>
-      </a> -->
-      <!-- <a href="/assets/pdf/cv.pdf" class="link-button social-cv">View CV</a> -->
-    </div>
+  <span>&copy; 2025 Kristen Engel</span> &nbsp;|&nbsp;
+  <span><a href="mailto:engelkri@uw.edu">engelkri [at] uw [dot] edu</a></span> &nbsp;|&nbsp;
+  <div class="social-links">
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user={{ site.scholar_username }}" title="Google Scholar" target="_blank" rel="noopener">
+      <i class="fa-solid fa-graduation-cap"></i>
+    </a>
+    <a href="https://bsky.app/profile/{{ site.bluesky_username }}" title="Bluesky" target="_blank" rel="noopener">
+      <i class="fa-brands fa-bluesky"></i>
+    </a>
   </div>
 </footer>
 
-    
 </body>
 </html>
+
+    <!-- <a href="https://signal.me/#eu/{{ site.signal_username }}" title="Signal" target="_blank" rel="noopener">
+      <i class="fa-brands fa-signal-messenger"></i>
+    </a>
+    <a href="https://wa.me/{{ site.whatsapp_number }}" title="WhatsApp" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp"></i> 
+    </a> -->
