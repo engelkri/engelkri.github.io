@@ -28,6 +28,7 @@ url: "https://kristenengel.com" # the base hostname & protocol for your site, e.
 linkedin_username: kristenengel
 scholar_username: UHy5CWUAAAAJ
 bluesky_username: kristenengel.bsky.social
+signal_username: kristen.28
 header_pages:
   - research.html
   - cv.md
