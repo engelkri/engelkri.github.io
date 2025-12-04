@@ -2,7 +2,10 @@ User-agent: Googlebot
 Disallow:
 
 User-agent: Googlebot-Scholar
-Disallow
+Disallow:
+
+User-agent: Bingbot
+Disallow: 
 
 User-agent: GPTBot
 Disallow: /
@@ -14,9 +17,6 @@ User-agent: ClaudeBot
 Disallow: /
 
 User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Bingbot
 Disallow: /
 
 User-agent: CCBot
