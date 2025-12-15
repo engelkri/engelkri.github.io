@@ -20,7 +20,8 @@
   </script>
 
   <!-- Links page-specific style -->
-  {% if page.permalink == '/links/' %}
+  <!-- {% if page.permalink == '/links/' %} -->
+  {% if page.permalink == '/links/' or page.permalink == '/share/' %}
   <style>
     body.page-links .page-content {
       max-width: 480px;
