@@ -40,7 +40,7 @@ a:hover {
 
 .site-title a:hover {
   color: #f5f5f5;
-  background-color: #2F6D73; 
+  /* background-color: #2F6D73;  */ 
 }
 
 .site-nav a {
