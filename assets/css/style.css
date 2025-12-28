@@ -23,6 +23,11 @@ a:hover {
   border-bottom: 1px solid #CAD6D7; /* #ccc;  #2F6D73;*/
 }
 
+.site-title a:hover {
+  color: #ffffff;
+  background-color: #2F6D73; 
+}
+
 .header-wrapper {
   max-width: 960px;
   margin: 0 auto;
