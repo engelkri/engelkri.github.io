@@ -3,26 +3,116 @@ layout: default
 title: Research
 permalink: /research/
 ---
-<h3>Publications</h3> 
-<h4>In Preparation</h4>
-<span id="p9" style="cursor: pointer;">[9]</span> <b>Engel, K.</b>, Spiro, E., and Phadke, S. <i>Community Context and AI-mediated Antisocial Content Disengagement.</i>
-<br><br>
-<span id="p8" style="cursor: pointer;">[8]</span> Moran-Prestige, R., <b>Engel, K.</b>, Awwal, A., and Spiro, E. <i>The Future of “Trust & Safety”: Examining the Shift to AI in Online Safety Efforts.</i>
-<br><br>
-<span id="p7" style="cursor: pointer;">[7]</span> <b>Engel, K.</b> and Spiro, E. <i>Social Inclusion Cues for Harmful Belief Disengagement.</i>
+<style>
+  .section {
+    margin-bottom: 16px;
+  }
 
-<h4>Refereed Journal and Conference Proceedings</h4>
-<span id="p6" style="cursor: pointer;">[6]</span> <b>Engel, K.</b>, Mitra, T., and Spiro, E. <i>Social Dynamics and Mobilization Potential of Online Election Narratives.</i> Proceedings of the Int’l AAAI Conference on Web and Social Media (ICWSM ’25). <a href="/assets/pdfs/Engel-2025-ICWSM.pdf" target="_blank">pdf.</a>
-<br><br>
-<span id="p5" style="cursor: pointer;">[5]</span> <b>Engel, K.</b>, Phadke, S., and Mitra, T. <i>Learning from the Ex-Believers: Individuals’ Journeys In and Out of Conspiracy Theories Online.</i> Proceedings of the ACM on Human-Computer Interaction. Computer Supported Cooperative Work (CSCW ’23). <a href="/assets/pdfs/Engel-2023-CSCW.pdf" target="_blank">pdf.</a>
-<br><br>
-<span id="p4" style="cursor: pointer;">[4]</span> <b>Engel, K.*</b>, Hua, Y.*, Zeng, T., and Naaman, M. <i>Characterizing Reddit Participation of Users Who Engage in the QAnon Conspiracy Theories.</i> Proceedings of the ACM on Human-Computer Interaction. Computer Supported Cooperative Work (CSCW ’22). <a href="/assets/pdfs/EngelHua-2022-CSCW.pdf" target="_blank">pdf.</a>
-<br><br>
-<span id="p3" style="cursor: pointer;">[3]</span> Tseng, E., Freed, D., <b>Engel, K.</b>, Ristenpart, T., and Dell, N. <i>A Digital Safety Dilemma: Analysis of Computer-Mediated Computer Security Interventions for Intimate Partner Violence During COVID-19.</i> Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Conference on Human Factors in Computing Systems (CHI ’21). <a href="/assets/pdfs/Tseng-2021-CHI.pdf" target="_blank">pdf.</a>
+  .section-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2F6D73;
+    color: #f2f2f2;
+    font-weight: 800;
+    font-size: 28px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+  }
 
-<h4>Refereed Panels, Workshops and Other Peer-Reviewed Publications</h4>
-<span id="p2" style="cursor: pointer;">[2]</span> <b>Engel, K.</b>, Aske, A.*, Duskin, K.*, Venkatagiri, S., and Spiro, E. <i>“We’re watching for cheating”: The Role of Visual Media in a U.S. Election Interference Online Rumoring Campaign.</i> Workshop Proceedings of the 19th Int’l AAAI Conference on Web and Social Media (ICWSM ‘25).
-<br><br>
-<span id="p1" style="cursor: pointer;">[1]</span> Duskin, K.*, <b>Engel, K.*</b>, and Spiro, E. <i>Midterm Candidate Participation in False and Misleading Election Discourse on Twitter.</i> Int’l Conference on Computational Social Science (IC<sup>2</sup>S<sup>2</sup> ‘23).
-<br><br>
- <i>* indicates equal contribution</i>
+  .section-toggle:hover {
+    background-color: #275960;
+  }
+
+  .section-toggle .arrow {
+    font-size: 20px;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+    margin-left: 12px;
+  }
+
+  .section-toggle[aria-expanded="false"] .arrow {
+    transform: rotate(-90deg);
+  }
+
+  .section-content {
+    padding: 16px 4px;
+    overflow: hidden;
+  }
+
+  .section-content[hidden] {
+    display: none;
+  }
+
+  .global-note {
+    color: #888;
+    font-size: 14px;
+    margin-top: 24px;
+  }
+
+  .global-note[hidden] {
+    display: none;
+  }
+
+  .footnote-note {
+    color: #888;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+</style>
+
+<div class="section">
+  <button class="section-toggle" aria-expanded="true" aria-controls="content-2">
+    Exploring the viability of audience- and AI-mediated interventions to counter anti-social content and facilitate more constructive deliberation online
+    <span class="arrow">▾</span>
+  </button>
+  <div class="section-content" id="content-2">
+    <p><span id="p8" style="cursor: pointer;">[8]</span> Moran-Prestige, R., <b>Engel, K.</b>, Awwal, A., and Spiro, E. <i>The Future of "Trust & Safety": Examining the Shift to AI in Online Safety Efforts.</i> In submission.
+<br><br> <span id="p7" style="cursor: pointer;">[7]</span> <b>Engel, K.</b> and Spiro, E. <i>Social Inclusion Prompts for Harmful Belief Disengagement. </i> In submission. <br><br>
+</p>
+    <p class="footnote-note">Authorship on [8] is listed in order of contribution.</p>
+  </div>
+</div>
+
+<div class="section">
+  <button class="section-toggle" aria-expanded="true" aria-controls="content-1">
+    How socio-technical systems cause harm
+    <span class="arrow">▾</span>
+  </button>
+  <div class="section-content" id="content-1">
+    <p><span id="p6" style="cursor: pointer;">[6]</span> <b>Engel, K.</b>, Mitra, T., and Spiro, E. <i>Social Dynamics and Mobilization Potential of Online Election Narratives.</i> Proceedings of the Int'l AAAI Conference on Web and Social Media (ICWSM '25, 33.8% acceptance). <a href="/assets/pdfs/Engel-2025-ICWSM.pdf" target="_blank">pdf.</a>
+<br><br> <span id="p5" style="cursor: pointer;">[5]</span> <b>Engel, K.</b>, Aske, A.*, Duskin, K.*, Venkatagiri, S., and Spiro, E. <i>"We're watching for cheating": The Role of Visual Media in a U.S. Election Interference Online Rumoring Campaign.</i> Workshop Proceedings of the 19th Int'l AAAI Conference on Web and Social Media (ICWSM '25). <a href="https://workshop-proceedings.icwsm.org/pdf/2025_13.pdf" target="_blank">pdf.</a>
+<br><br> <span id="p4" style="cursor: pointer;">[4]</span> <b>Engel, K.</b>, Phadke, S., and Mitra, T. <i>Learning from the Ex-Believers: Individuals' Journeys In and Out of Conspiracy Theories Online.</i> Proceedings of the ACM on Human-Computer Interaction. Computer Supported Cooperative Work (CSCW '23). <a href="/assets/pdfs/Engel-2023-CSCW.pdf" target="_blank">pdf.</a>
+<br><br> <span id="p3" style="cursor: pointer;">[3]</span> Duskin, K.*, <b>Engel, K.*</b>, and Spiro, E. <i>Midterm Candidate Participation in False and Misleading Election Discourse on Twitter.</i> Int'l Conference on Computational Social Science (IC<sup>2</sup>S<sup>2</sup> '23, 31.4% acceptance).
+<br><br> <span id="p2" style="cursor: pointer;">[2]</span> <b>Engel, K.*</b>, Hua, Y.*, Zeng, T., and Naaman, M. <i>Characterizing Reddit Participation of Users Who Engage in the QAnon Conspiracy Theories.</i> Proceedings of the ACM on Human-Computer Interaction. Computer Supported Cooperative Work (CSCW '22). <a href="/assets/pdfs/EngelHua-2022-CSCW.pdf" target="_blank">pdf.</a>
+<br><br> <span id="p1" style="cursor: pointer;">[1]</span> Tseng, E., Freed, D., <b>Engel, K.</b>, Ristenpart, T., and Dell, N. <i>A Digital Safety Dilemma: Analysis of Computer-Mediated Computer Security Interventions for Intimate Partner Violence During COVID-19.</i> Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Conference on Human Factors in Computing Systems (CHI '21, 26.3% acceptance). <a href="/assets/pdfs/Tseng-2021-CHI.pdf" target="_blank">pdf.</a>
+</p>
+  </div>
+</div>
+
+<p class="global-note" id="global-note">Unless otherwise noted, junior scholars are listed in order of contribution, with senior authors listed in reverse order. Top-tier conferences are comparable to, or exceed, that of journals (see <a href="https://dl.acm.org/doi/epdf/10.1145/1743546.1743569" target="_blank"><i>Conference
+paper selectivity and impact</i></a>.) Acceptance rate provided if available. * indicates equal contribution.</p>
+
+<script>
+  function updateGlobalNote() {
+    const anyOpen = Array.from(document.querySelectorAll('.section-content'))
+      .some(function (content) { return !content.hidden; });
+    document.getElementById('global-note').hidden = !anyOpen;
+  }
+
+  document.querySelectorAll('.section-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      const content = document.getElementById(btn.getAttribute('aria-controls'));
+      content.hidden = expanded;
+      updateGlobalNote();
+    });
+  });
+
+  updateGlobalNote();
+</script>
